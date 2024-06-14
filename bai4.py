@@ -1,6 +1,7 @@
 import tkinter as tk
 from tkinter import ttk
 win=tk.Tk()
+win.title("PYTHON GUI!")
 
 def click_me():
     action.configure(text="Hello"+ name.get())
